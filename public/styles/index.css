@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    background-color: blue;
+    display:flex;
+}
+
+.container .elem{
+    padding:10px;
+    background-color: red;
+    margin:10px auto;
+}
