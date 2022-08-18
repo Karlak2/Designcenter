@@ -7,7 +7,7 @@ app.use(express.static('public'))
 app.use(bodyParser.json())
 
 app.get('/',async(req,res)=>{
-    const ind=await fs.readFile('public/main.html','utf-8')
+    const ind=await fs.readFile('public/main.html','latin1')
     res.send(ind)
 })
 
